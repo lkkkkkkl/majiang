@@ -41,6 +41,7 @@ class Person():
         self.hand    = Hand()
         self.played  = []
         self.dropout = None
+        #self.dropout_digit = 
     
     def draw_card(self, card):
         self.hand.card_add(card)
